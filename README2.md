@@ -6,7 +6,7 @@ import pandas as pd
 
 
 ```python
-filename = 'Resources/purchase_data.json'
+filename = 'Resources/purchase_data2.json'
 purchase_df = pd.read_json(filename)
 ```
 
@@ -49,7 +49,7 @@ player_count_summary
   <tbody>
     <tr>
       <th>0</th>
-      <td>573</td>
+      <td>74</td>
     </tr>
   </tbody>
 </table>
@@ -107,10 +107,10 @@ purchasing_analysis_summary
   <tbody>
     <tr>
       <th>0</th>
-      <td>183</td>
-      <td>$2.93</td>
-      <td>780</td>
-      <td>$2,286.33</td>
+      <td>64</td>
+      <td>$2.92</td>
+      <td>78</td>
+      <td>$228.10</td>
     </tr>
   </tbody>
 </table>
@@ -163,18 +163,18 @@ gender_counts_df
   <tbody>
     <tr>
       <th>Male</th>
-      <td>81.15</td>
-      <td>465</td>
+      <td>81.08</td>
+      <td>60</td>
     </tr>
     <tr>
       <th>Female</th>
-      <td>17.45</td>
-      <td>100</td>
+      <td>17.57</td>
+      <td>13</td>
     </tr>
     <tr>
       <th>Other / Non-Disclosed</th>
-      <td>1.40</td>
-      <td>8</td>
+      <td>1.35</td>
+      <td>1</td>
     </tr>
   </tbody>
 </table>
@@ -242,24 +242,24 @@ gender_purchases
   <tbody>
     <tr>
       <th>Female</th>
-      <td>136</td>
-      <td>$2.82</td>
-      <td>$382.91</td>
-      <td>$2.82</td>
+      <td>13</td>
+      <td>$3.18</td>
+      <td>$41.38</td>
+      <td>$3.18</td>
     </tr>
     <tr>
       <th>Male</th>
-      <td>633</td>
-      <td>$2.95</td>
-      <td>$1,867.68</td>
-      <td>$2.95</td>
+      <td>64</td>
+      <td>$2.88</td>
+      <td>$184.60</td>
+      <td>$2.88</td>
     </tr>
     <tr>
       <th>Other / Non-Disclosed</th>
-      <td>11</td>
-      <td>$3.25</td>
-      <td>$35.74</td>
-      <td>$3.25</td>
+      <td>1</td>
+      <td>$2.12</td>
+      <td>$2.12</td>
+      <td>$2.12</td>
     </tr>
   </tbody>
 </table>
@@ -326,43 +326,43 @@ age_group
   <tbody>
     <tr>
       <th>&lt;10</th>
-      <td>3.32</td>
-      <td>19</td>
+      <td>6.76</td>
+      <td>5</td>
     </tr>
     <tr>
       <th>10-14</th>
-      <td>4.01</td>
-      <td>23</td>
+      <td>4.05</td>
+      <td>3</td>
     </tr>
     <tr>
       <th>15-19</th>
-      <td>17.45</td>
-      <td>100</td>
+      <td>14.86</td>
+      <td>11</td>
     </tr>
     <tr>
       <th>20-24</th>
-      <td>45.20</td>
-      <td>259</td>
+      <td>45.95</td>
+      <td>34</td>
     </tr>
     <tr>
       <th>25-29</th>
-      <td>15.18</td>
-      <td>87</td>
+      <td>10.81</td>
+      <td>8</td>
     </tr>
     <tr>
       <th>30-34</th>
-      <td>8.20</td>
-      <td>47</td>
+      <td>8.11</td>
+      <td>6</td>
     </tr>
     <tr>
       <th>35-39</th>
-      <td>4.71</td>
-      <td>27</td>
+      <td>8.11</td>
+      <td>6</td>
     </tr>
     <tr>
       <th>40+</th>
-      <td>1.92</td>
-      <td>11</td>
+      <td>1.35</td>
+      <td>1</td>
     </tr>
   </tbody>
 </table>
@@ -431,59 +431,59 @@ age_purchases
   <tbody>
     <tr>
       <th>&lt;10</th>
-      <td>28</td>
-      <td>$2.98</td>
-      <td>$83.46</td>
-      <td>$2.98</td>
+      <td>5</td>
+      <td>$2.76</td>
+      <td>$13.82</td>
+      <td>$2.76</td>
     </tr>
     <tr>
       <th>10-14</th>
-      <td>35</td>
-      <td>$2.77</td>
-      <td>$96.95</td>
-      <td>$2.77</td>
+      <td>3</td>
+      <td>$2.99</td>
+      <td>$8.96</td>
+      <td>$2.99</td>
     </tr>
     <tr>
       <th>15-19</th>
-      <td>133</td>
-      <td>$2.91</td>
-      <td>$386.42</td>
-      <td>$2.91</td>
+      <td>11</td>
+      <td>$2.76</td>
+      <td>$30.41</td>
+      <td>$2.76</td>
     </tr>
     <tr>
       <th>20-24</th>
-      <td>336</td>
-      <td>$2.91</td>
-      <td>$978.77</td>
-      <td>$2.91</td>
+      <td>36</td>
+      <td>$3.02</td>
+      <td>$108.89</td>
+      <td>$3.02</td>
     </tr>
     <tr>
       <th>25-29</th>
-      <td>125</td>
-      <td>$2.96</td>
-      <td>$370.33</td>
-      <td>$2.96</td>
+      <td>9</td>
+      <td>$2.90</td>
+      <td>$26.11</td>
+      <td>$2.90</td>
     </tr>
     <tr>
       <th>30-34</th>
-      <td>64</td>
-      <td>$3.08</td>
-      <td>$197.25</td>
-      <td>$3.08</td>
+      <td>7</td>
+      <td>$1.98</td>
+      <td>$13.89</td>
+      <td>$1.98</td>
     </tr>
     <tr>
       <th>35-39</th>
-      <td>42</td>
-      <td>$2.84</td>
-      <td>$119.40</td>
-      <td>$2.84</td>
+      <td>6</td>
+      <td>$3.56</td>
+      <td>$21.37</td>
+      <td>$3.56</td>
     </tr>
     <tr>
       <th>40+</th>
-      <td>17</td>
-      <td>$3.16</td>
-      <td>$53.75</td>
-      <td>$3.16</td>
+      <td>1</td>
+      <td>$4.65</td>
+      <td>$4.65</td>
+      <td>$4.65</td>
     </tr>
   </tbody>
 </table>
@@ -543,34 +543,34 @@ top_five_spenders
   </thead>
   <tbody>
     <tr>
-      <th>Undirrala66</th>
-      <td>5</td>
-      <td>$3.41</td>
-      <td>$17.06</td>
+      <th>Sundaky74</th>
+      <td>2</td>
+      <td>$3.71</td>
+      <td>$7.41</td>
     </tr>
     <tr>
-      <th>Saedue76</th>
-      <td>4</td>
-      <td>$3.39</td>
-      <td>$13.56</td>
+      <th>Aidaira26</th>
+      <td>2</td>
+      <td>$2.56</td>
+      <td>$5.13</td>
     </tr>
     <tr>
-      <th>Mindimnya67</th>
-      <td>4</td>
-      <td>$3.18</td>
-      <td>$12.74</td>
+      <th>Eusty71</th>
+      <td>1</td>
+      <td>$4.81</td>
+      <td>$4.81</td>
     </tr>
     <tr>
-      <th>Haellysu29</th>
-      <td>3</td>
-      <td>$4.24</td>
-      <td>$12.73</td>
+      <th>Chanirra64</th>
+      <td>1</td>
+      <td>$4.78</td>
+      <td>$4.78</td>
     </tr>
     <tr>
-      <th>Eoda93</th>
-      <td>3</td>
-      <td>$3.86</td>
-      <td>$11.58</td>
+      <th>Alarap40</th>
+      <td>1</td>
+      <td>$4.71</td>
+      <td>$4.71</td>
     </tr>
   </tbody>
 </table>
@@ -631,39 +631,39 @@ top_five_items
   </thead>
   <tbody>
     <tr>
-      <th>39</th>
-      <th>Betrayal, Whisper of Grieving Widows</th>
-      <td>11</td>
-      <td>$2.35</td>
-      <td>$25.85</td>
+      <th>94</th>
+      <th>Mourning Blade</th>
+      <td>3</td>
+      <td>$3.64</td>
+      <td>$10.92</td>
     </tr>
     <tr>
-      <th>84</th>
-      <th>Arcane Gem</th>
-      <td>11</td>
-      <td>$2.23</td>
-      <td>$24.53</td>
+      <th>60</th>
+      <th>Wolf</th>
+      <td>2</td>
+      <td>$2.70</td>
+      <td>$5.40</td>
     </tr>
     <tr>
-      <th>13</th>
-      <th>Serenity</th>
-      <td>9</td>
-      <td>$1.49</td>
-      <td>$13.41</td>
+      <th>64</th>
+      <th>Fusion Pummel</th>
+      <td>2</td>
+      <td>$2.42</td>
+      <td>$4.84</td>
     </tr>
     <tr>
-      <th>31</th>
-      <th>Trickster</th>
-      <td>9</td>
-      <td>$2.07</td>
-      <td>$18.63</td>
+      <th>90</th>
+      <th>Betrayer</th>
+      <td>2</td>
+      <td>$4.12</td>
+      <td>$8.24</td>
     </tr>
     <tr>
-      <th>34</th>
-      <th>Retribution Axe</th>
-      <td>9</td>
-      <td>$4.14</td>
-      <td>$37.26</td>
+      <th>93</th>
+      <th>Apocalyptic Battlescythe</th>
+      <td>2</td>
+      <td>$4.49</td>
+      <td>$8.98</td>
     </tr>
   </tbody>
 </table>
@@ -726,39 +726,39 @@ top_five_item_sales
   </thead>
   <tbody>
     <tr>
-      <th>34</th>
-      <th>Retribution Axe</th>
-      <td>9</td>
-      <td>$4.14</td>
-      <td>$37.26</td>
+      <th>94</th>
+      <th>Mourning Blade</th>
+      <td>3</td>
+      <td>$3.64</td>
+      <td>$10.92</td>
     </tr>
     <tr>
-      <th>115</th>
-      <th>Spectral Diamond Doomblade</th>
-      <td>7</td>
-      <td>$4.25</td>
-      <td>$29.75</td>
+      <th>117</th>
+      <th>Heartstriker, Legacy of the Light</th>
+      <td>2</td>
+      <td>$4.71</td>
+      <td>$9.42</td>
     </tr>
     <tr>
-      <th>32</th>
-      <th>Orenmir</th>
-      <td>6</td>
-      <td>$4.95</td>
-      <td>$29.70</td>
+      <th>93</th>
+      <th>Apocalyptic Battlescythe</th>
+      <td>2</td>
+      <td>$4.49</td>
+      <td>$8.98</td>
     </tr>
     <tr>
-      <th>103</th>
-      <th>Singed Scalpel</th>
-      <td>6</td>
-      <td>$4.87</td>
-      <td>$29.22</td>
+      <th>90</th>
+      <th>Betrayer</th>
+      <td>2</td>
+      <td>$4.12</td>
+      <td>$8.24</td>
     </tr>
     <tr>
-      <th>107</th>
-      <th>Splitter, Foe Of Subtlety</th>
-      <td>8</td>
-      <td>$3.61</td>
-      <td>$28.88</td>
+      <th>154</th>
+      <th>Feral Katana</th>
+      <td>2</td>
+      <td>$4.11</td>
+      <td>$8.22</td>
     </tr>
   </tbody>
 </table>
